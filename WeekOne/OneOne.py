@@ -14,3 +14,9 @@ print(4*5)
 print(4/5)
 print(4//5)
 print((((4+5)**2)**3)**(1/2))
+
+
+
+
+
+print("done with week one")
