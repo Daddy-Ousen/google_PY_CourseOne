@@ -27,3 +27,9 @@ june_days = 30
 print("June has " + str(june_days) + " days.")
 july_days = 31
 print("July has " + str(july_days) + " days.")
+
+def rectangle_area(base, height):
+	area = base*height  # the area is base*height
+	print("The area is " + str(area))
+
+rectangle_area(10, 5)
