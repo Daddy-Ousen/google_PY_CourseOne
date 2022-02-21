@@ -1,3 +1,5 @@
-def greeting(name):
+def greeting(name, department):
     print("Welcome, " + name)
-greeting("Brook")
+    print("You are part of " + department)
+
+greeting("Brook", "IT")
