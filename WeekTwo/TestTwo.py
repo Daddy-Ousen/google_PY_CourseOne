@@ -1,15 +1,19 @@
-# 1) Complete the function to return the result of the conversion
+# In the first blank, we should complete the incomplete function and make function to return the result after conversion
+
 def convert_distance(miles):
-	km = miles * 1.6  # approximately 1.6 km in 1 mile
+    km = miles*1.6
+    return km
 
 my_trip_miles = 55
 
-# 2) Convert my_trip_miles to kilometers by calling the function above
-my_trip_km = my_trip_miles*1.6
+# In this blank, we have to convert my_trip_miles to kilometers by calling the above defined function
 
-# 3) Fill in the blank to print the result of the conversion
-print("The distance in kilometers is " + my_trip_km )
+my_trip_km = convert_distance(my_trip_miles)
 
-# 4) Calculate the round-trip in kilometers by doubling the result,
-#    and fill in the blank to print the result
-print("The round-trip in kilometers is " + my_trip_km*2)
+# Here, we are printing the result after the conversion
+
+print("The distance in kilometers is " + str(my_trip_km))
+
+# Here, we are calculating the number of kilometers in round trip by doubling the above result.
+
+print("The round-trip in kilometers is " + str(my_trip_km*2))
